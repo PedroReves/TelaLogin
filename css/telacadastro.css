@@ -1,0 +1,162 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+:root
+{
+    --preto: #000000;
+    --branco: #fff;
+    --mostarda: #fca311;
+    --azul-escuro: #14213d;
+    --cinza: #e5e5e5;
+
+    --fonte: 'Montserrat', sans-serif;
+;
+
+    --tran02: all 0.2s ease-in-out;
+    --tran04: all 0.3s ease-in-out;
+    --tran03: all 0.4s ease-in-out;
+    --tran05: all 0.5s ease-in-out;
+    
+}
+
+body
+{
+    background-color: var(--branco);
+    text-align: center;
+    font-family: var(--fonte);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-weight: 500;
+}
+
+.box__imagem
+{
+    margin: 3em 1em;
+}
+
+.box__input
+{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    gap: 1.25rem;
+    
+}
+
+.box__input label
+{
+    text-align: left;
+    position: relative;
+    left: 10px;
+    top: 3px;
+    font-size: 13px;
+}
+
+.text
+{
+    font-family: var(--fonte);
+    font-weight: 600;
+    font-size: 1.50em;
+    color: var(--azul-escuro);
+}
+
+
+
+
+.box__inputs 
+{
+    background-color: var(--cinza);
+    color: var(--preto);
+    outline: none;
+    border: 0;
+    height: 3em;
+    border-radius: 10px;
+    padding-left: 1em;
+    cursor: pointer;
+}
+
+.box__input--btn
+{
+    color: var(--branco);
+    background-color: var(--azul-escuro);
+    border-radius: 20px;
+    height: 3em;
+    width: 50%;
+    margin: 1em auto;
+    cursor: pointer;
+}
+
+.box__input--btn:hover
+{
+    transition: var(--tran02);
+    background-color: #000000;
+}
+
+.box__enter--text
+{
+    font-size: 1.7em;
+}
+
+.new__user
+{
+    margin-top: 3em;
+}
+
+.new__user a 
+{
+    cursor: pointer;
+}
+
+.new__user a:hover
+{
+    color: purple;
+    transition: var(--tran02);
+}
+
+.image__enter
+{
+    padding: 1em  1.5em;
+    cursor: pointer;
+}
+
+.rights 
+{
+    text-align: end;
+    padding-top: 7em;
+    font-weight: lighter;
+    font-size: 10px;
+}
+
+.rights a:hover
+{
+    color: purple;
+    transition: var(--tran02);
+}
+
+@media screen and (min-width:1440px) 
+{
+  .box__input--btn
+  {
+    width: 15%;
+    
+  }      
+}
+
+
+
+
+
+
+
+

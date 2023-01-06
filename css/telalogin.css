@@ -1,0 +1,154 @@
+.logo__imagem
+{
+    margin: 1.8em 0;
+}
+
+hr
+{
+    color: var(--cinzaclaro);
+    margin: 0 0 1em 0;
+    opacity: 50%;
+}
+
+.formulario__titulo
+{
+    font-size: 25px;
+    font-weight: 600;
+    margin: 1em 1em;
+}
+
+.inputlabel
+{
+    display: flex;
+    padding: 0 1.4em;
+}
+
+.formulario__input
+{
+    width: 90%;
+    border-radius: 10px;
+    height: 50px;
+    margin: 1em 1em;
+    background-color: var(--cinzaformulario);
+    border: 0;
+    cursor: pointer;
+    flex-grow: 2;
+}
+
+.formulario__input::placeholder
+{
+    padding: 0 1em;
+}
+
+.formulario__input--enviar
+{
+    margin: 1em 1em;
+    background: transparent;
+    border: 0;
+    background-color: var(--amarelo);
+    color: var(--branco);
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 30px;
+    width: 60%;
+    height: 5vh;
+    cursor: pointer;
+}
+
+.formasentrar
+{
+    margin: 2em 1em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.9em;
+    padding-bottom: 1em;
+}
+
+.formasentrar__imagem
+{
+    cursor: pointer;
+}
+
+.formasentrar__titulo
+{
+    font-size: 25px;
+    font-weight: 600;
+    margin: 0 1em;
+}
+
+.criarconta__titulo
+{
+    font-size: 25px;
+    font-weight: 600;
+    font-family: var(--fonte-principal);
+}
+
+.criarconta__botao
+{
+    background-color: transparent;
+    border: 0;
+    background: var(--cinza);
+    color: var(--branco);
+    width: 70%;
+    height: 4vh;
+    border-radius: 30px;
+    margin: 1em 1em;
+    font-size: 16px;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.criarconta__botao:hover
+{
+    background-color: var(--cinzahover);
+}
+
+
+@media screen and (min-width: 768px)
+{
+    
+    .formulario__titulo
+    {
+        font-size: 2em;
+    }   
+    
+    .inputlabel 
+    {
+        margin: 0 3em;
+    }
+    
+    .formulario 
+    {
+        width: 95%
+    }
+
+    .criarconta 
+    {
+        padding-top: 2em;
+    }
+
+    .formasentrar__imagem 
+    {
+        padding: 0 1em 0 0;
+    }
+}
+
+@media screen and (min-width: 1440px)
+{
+   .inputlabel
+   {
+    padding-left: 3em;
+   }
+
+   .formulario__input--enviar
+   {
+    width: 20%;
+   }
+}
+
+
+
+
+

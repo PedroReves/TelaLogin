@@ -1,0 +1,34 @@
+@import url(/css/telalogin.css);
+@import url(/css/telacadastro.css);
+
+:root
+{
+    --branco: #fff;
+    --preto: #000;
+    --azulescuro: #3D5A80;
+    --fonte-principal: 'Inter';
+    --amarelo: #F7D032;
+    --laranja: #EE6C4D;
+    --roxo: #A41FE3;
+    --cinza: #293241;
+    --cinzaclaro: #C2B5B5;
+    --cinzatexto: #8F8F8F;
+    --cinzaformulario: #ECE7E7;
+    --cinzahover: #121110;
+
+    --tran-02: all 0.2 ease;
+    --tran-03: all 0.3 ease;
+    --tran-04: all 0.4 ease;
+    --tran-05: all 0.5 ease;
+}
+
+body
+{
+    font-size: 16px;
+    font-family: var(--fonte-principal);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
